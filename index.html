@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/bc287570b0.js" crossorigin="anonymous"></script>
+</head>
+<style>
+   
+.head{
+      
+        background-image: url(https://wallpapercave.com/wp/wp5885891.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height:100vh;
+    }
+
+    .header{
+  display: flex;
+        justify-content: space-between;
+        padding: 30px;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .logo{
+        color: white;
+        font-size: 45px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+
+    }
+    .links{
+       color: white;
+       margin-left: 300px;
+       display: flex;
+       gap: 5px;
+
+    }
+    .links a{
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        margin-left: 25px;
+        
+        
+    
+    }
+    .links a:hover{
+        color: rgb(100, 146, 30);
+    }
+    .cls h1{
+        color: white;
+        margin-top: 180px;
+        text-align: center;
+    
+    }
+    .btn button{
+      color: red;
+      border: solid 1px;
+      padding: 5px;
+      width: 100px;
+      background-color: transparent;
+    }
+    .btn button:hover{
+        color: white;
+        background-color: rgba(216, 9, 9, 0.623);
+        border: none;
+    }
+    .btn a{
+        color: white;
+        text-decoration: none;
+        
+    }
+    .head2{
+        background-color: black;
+        padding: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:400px;
+    }
+    .gif{
+        color: white;
+        padding: 5px;
+         font-size: 15px;
+         border-right:1px solid grey;
+        margin-right: 0px;
+        padding: 20px;
+         
+         
+        
+         
+    }
+   
+    .work{
+        color: white;
+        padding: 5px;
+        margin-left: 30px;
+        font-size: 15px;
+      
+        
+    }
+    .gif button{
+    padding: 7px;
+    width: 89%;
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+.head3{
+     display: flex;
+    gap:50px;
+    justify-content:center;
+   padding:50px;
+     background-color: rgb(174, 172, 172);
+     margin: 0px;
+}
+.cont1 img{
+     width:200px;
+    height:200px;
+    
+}
+.pic{
+     width:400px;
+      margin-right:100px;
+      margin-top: -10px;
+
+}
+.cont1{
+    width: 200px;
+}
+.sml{
+    display:flex;
+    justify-content: space-between;
+    background-color: white;
+    padding:10px;
+    margin-top:-10px
+}
+.sml a{
+    margin-top:20px;
+}
+.head4{
+    background-color: rgb(245, 245, 235);
+    padding:20px;
+}
+.coach{
+     display:flex;
+    justify-content: center;
+
+    gap:40px;
+}
+.coach1{
+     width:300px;
+    background-color: white;
+}
+.coach1 img{
+      width:300px;
+    height:200px;
+}
+.bbb{
+     padding:15px;
+}
+.head4 h4{
+     text-align: center;
+    color:grey;
+}
+.head4 h2{
+    text-align: center;
+}
+.coachs{
+    display: flex;
+    justify-content: space-between;
+    margin-top:-20px;
+}
+.coachs div{
+      border-radius:50%;
+    background-color: red;
+    width:50px;
+    padding:10px;
+    margin-top:5px;
+}
+td,th{
+    border: 1px solid rgb(46, 39, 39);
+    padding: 10px;
+    color: white;
+}
+table{
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 50px;
+
+}
+.head5{
+    background-color: black;
+    padding: 50px;
+}
+.head5 h1{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+th{
+    background-color: orangered;
+}
+td:hover{
+    background-color: darkolivegreen;
+}
+.head6{
+   display:flex;
+    justify-content: center;
+    gap:70px;
+    padding:10px;
+    margin-bottom: 60px;
+    margin-top: 20px;
+
+    
+}
+.hr h1{
+    color: black;
+}
+.form{
+    width:400px;
+}
+.hr{
+     width:400px;
+}
+input,textarea{
+    width:100%;
+    padding:15px;
+    margin:12px;
+}
+
+form button{
+    width:100%;
+    padding:10px;
+    background-color: orangered;
+    border:none;
+    margin-left:15px;
+}
+
+form button:hover{
+    background-color: rgb(179, 48, 0);
+}
+form h1{
+    margin-left:20px;
+    margin-bottom:5px;
+}
+iframe{
+    width:400px;
+    height:200px;
+}
+</style>
+<body>
+    <section class="head">
+
+        <div class="header">
+    
+    <div class="logo">Gymso Fitness</div>
+
+    <div class="links">
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">SCHEDULES</a>
+        <a href="">CONTACT</a>
+        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://x.com/?lang=en-in"><i class="fa-brands fa-x-twitter"></i></a>
+       
+    </div>
+
+    </div>
+
+    <div class="cls">
+        <h1>UPGRADE YOUR BODY AT GYMSO FITNESS</h1>
+    </div>
+    <div class="btn">
+        <a href=""> Get Started</a>
+        <button>Learn More</button>
+    </div>
+    </section>
+
+
+
+
+<section class="head2">
+
+       <div class="gif">
+        <h1>New to the gymso?</h1><br>
+        <p>Start small,stay consistent,and keep pushing forward.</p><br>
+        <p>Every workout is a step closer to a stronger you.</p><br>
+        <button>Became a member today</button>
+       </div>
+       
+       <div class="work">
+        <h1>Working Hours</h1><br>
+
+        <p>5AM to 10AM</p>
+        <p>10AM to 2PM</p>
+        <p>4PM to 10PM</p>
+       </div>
+</section>
+    <section class="head3">
+        <div class="pic">
+            <h1>Hello,We are Gymso</h1>
+            <p>replacing fleeting feelings of hype with unyielding discipline, backed by a system that makes showing up easier than staying home. </p>
+        </div>
+        <div class="cont1">
+            <img src="https://thumbs.dreamstime.com/b/athletic-girl-gym-working-out-fitness-woman-showing-abs-flat-belly-shaped-body-117593542.jpg" alt="">
+            <div class="sml">
+                <h3>MARY</h3>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+            <div class="cont1">
+                <img src="https://thumbs.dreamstime.com/b/athletic-girl-gym-working-out-fitness-woman-showing-abs-flat-belly-shaped-body-117593542.jpg" alt="">
+                <div class="sml">
+                    <h3>MARY</h3>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                </div>
+        </div>
+    </section>
+    <section class="head4">
+        <h4>Get a perfect body</h4>
+        <h2>Our Training Classes</h2>
+        <div class="coach">
+            <div class="coach1">
+                <img src="https://img.magnific.com/free-photo/beautiful-brunette-female-sportswear-holds-barbell-while-training-fitness-club-gym_613910-18601.jpg?semt=ais_hybrid&w=740&q=80" alt="">
+            <div class="bbb">
+                <h3>Yoga</h3><br>
+            <div class="coachs">
+                <p>sherin</p>
+            <div>$50</div>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, voluptatum!</p>
+        </div>
+        </div>
+
+        <div class="coach1">
+                <img src="https://img.magnific.com/free-photo/beautiful-brunette-female-sportswear-holds-barbell-while-training-fitness-club-gym_613910-18601.jpg?semt=ais_hybrid&w=740&q=80" alt="">
+            <div class="bbb">
+                <h3>Yoga</h3><br>
+            <div class="coachs">
+                <p>sherin</p>
+            <div>$50</div>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, voluptatum!</p>
+        </div>
+        </div>
+
+        <div class="coach1">
+                <img src="https://img.magnific.com/free-photo/beautiful-brunette-female-sportswear-holds-barbell-while-training-fitness-club-gym_613910-18601.jpg?semt=ais_hybrid&w=740&q=80" alt="">
+            <div class="bbb">
+                <h3>Yoga</h3><br>
+            <div class="coachs">
+                <p>sherin</p>
+            <div>$50</div>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, voluptatum!</p>
+        </div>
+        </div>
+        </div>
+    </section>
+    <section class="head5">
+        <h1>WORKING CLASSES</h1>
+    <table>
+        <tr>
+         <th>📆</th>
+         <th>MON</th>
+         <th>TUE</th>
+         <th>WED</th>
+         <th>THU</th>
+         <th>FRI</th>
+         <th>SAT</th>
+        </tr>
+        
+        <tr>
+            <th>7.00AM</td>
+            <td>cardio</td>
+            <td>power fitness</td>
+            <td></td>
+            <td></td>
+            <td>yoga section</td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>4.00PM</th>
+            <td></td>
+            <td></td>
+            <td>cardio</td>
+            <td></td>
+            <td>yoga section</td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>8.00AM</th>
+            <td></td>
+            <td>cardio</td>
+            <td>power fitness</td>
+            <td></td>
+            <td></td>
+            <td>yoga section</td>
+        </tr>
+        <tr>
+            <th>11.00AM</th>
+            <td>cardio</td>
+            <td>power fitness</td>
+            <td></td>
+            <td>yoga section</td>
+            <td></td>
+            <td>aerobic</td>
+        </tr>
+    </table>
+    </section>
+    <section class="head6">
+        <div class="hr">
+            <form action="">
+         <h1>Feel free to ask anything</h1>
+         <input type="text" placeholder="name">
+         <input type="email" placeholder="email">
+         <textarea name="Message" id="" placeholder="Message"></textarea>
+         <button>Send Message</button>
+            </form>
+        </div>
+        <div class="hr">
+            <h1>Lorem ipsum dolor sit.</h1><br>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum exercitationem cum laboriosam numquam consequatur voluptatibus!</p><br>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15624.48213893728!2d75.64091188231193!3d11.756558373038384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba42bb142dd7c9b%3A0xbb8f9a093c42cb39!2sVilakkottur%2C%20Keralam!5e0!3m2!1sen!2sin!4v1791354995556!5m2!1sen!2sin" ></iframe>
+        </div>
+    </section>
+</body>
+
+</html>
