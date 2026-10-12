@@ -256,6 +256,9 @@ iframe{
     width:400px;
     height:200px;
 }
+html{
+    scroll-behavior: smooth;
+}
 </style>
 <body>
     <section class="head">
@@ -265,10 +268,10 @@ iframe{
     <div class="logo">Gymso Fitness</div>
 
     <div class="links">
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">SCHEDULES</a>
-        <a href="">CONTACT</a>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#schedule">SCHEDULES</a>
+        <a href="#contact">CONTACT</a>
         <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
         <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
         <a href="https://x.com/?lang=en-in"><i class="fa-brands fa-x-twitter"></i></a>
@@ -277,7 +280,7 @@ iframe{
 
     </div>
 
-    <div class="cls">
+    <div class="cls" id="home">
         <h1>UPGRADE YOUR BODY AT GYMSO FITNESS</h1>
     </div>
     <div class="btn">
@@ -289,7 +292,7 @@ iframe{
 
 
 
-<section class="head2">
+<section class="head2" id="about">
 
        <div class="gif">
         <h1>New to the gymso?</h1><br>
@@ -367,7 +370,7 @@ iframe{
         </div>
         </div>
     </section>
-    <section class="head5">
+    <section class="head5" id="schedule">
         <h1>WORKING CLASSES</h1>
     <table>
         <tr>
@@ -418,7 +421,7 @@ iframe{
         </tr>
     </table>
     </section>
-    <section class="head6">
+    <section class="head6" id="contact">
         <div class="hr">
             <form action="">
          <h1>Feel free to ask anything</h1>
